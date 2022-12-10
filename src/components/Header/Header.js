@@ -2,8 +2,12 @@ import { ReactNavbar } from 'overlay-navbar';
 import React from 'react';
 import logo from '../../Images/logo.JPG'
 import { FaUserAlt } from "react-icons/fa";
+import './Header.css'
+// import { ClassNames } from '@emotion/react';
 const Header = () => {
     return (
+     <div className='header'>
+      
       <ReactNavbar
       
       
@@ -37,6 +41,11 @@ const Header = () => {
       profileIconColor="HSL(250, 100%, 75%)"
       profileIconColorHover="white"
       />
+      
+      
+      
+      
+      </div>
     );
 };
 

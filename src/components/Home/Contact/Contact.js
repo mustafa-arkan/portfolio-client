@@ -2,8 +2,9 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import map from '../../../Images/map.JPG'
+import   './Contact.css'
 
-// npm i @emailjs/browser
+
 
 const Contact = () => {
   const form = useRef();
@@ -33,8 +34,8 @@ const Contact = () => {
 
 
 
-<div>
-<h2>Feel Free to Contact Me.</h2>
+<div className="contact">
+<h1>Feel Free to Contact Me.</h1>
 <iframe
         src={map}
         width="100%"
